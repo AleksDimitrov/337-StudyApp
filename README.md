@@ -1,6 +1,6 @@
 # 337-StudyApp
 This is a study app loosely based off of Quizlet, called Solar.
-To run it, simply run the run.bat file
+To run it, simply run the run.bat file.
 A user can:
 - create an account with a username/password
 - login to that account

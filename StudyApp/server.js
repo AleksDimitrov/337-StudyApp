@@ -97,7 +97,7 @@ function isPasswordCorrect(account, password) {
 
 const db  = mongoose.connection;
 // const mongoDBURL = 'mongodb://127.0.0.1/login';
-const uri = 'mongodb+srv://Student1:Sun13r@cluster0.nokkq86.mongodb.net/?retryWrites=true&w=majority'; //'mongodb+srv://cluster0.nokkq86.mongodb.net/Solar1'; //'mongodb+srv://ish:chattydbpassword@chatty.irxu7.mongodb.net/chatty?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://Student1:Sun13r@solar1.d4jzv47.mongodb.net/?retryWrites=true&w=majority';//'mongodb+srv://Student1:Sun13r@cluster0.nokkq86.mongodb.net/?retryWrites=true&w=majority'; //'mongodb+srv://cluster0.nokkq86.mongodb.net/Solar1'; //'mongodb+srv://ish:chattydbpassword@chatty.irxu7.mongodb.net/chatty?retryWrites=true&w=majority';
 mongoose.connect(uri, { useNewUrlParser: true });
 db.once('open', _ => {
     console.log('Database connected:', uri)
